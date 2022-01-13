@@ -24,5 +24,5 @@ COPY --from=build /app/build /usr/share/nginx/html
 
 # Allows for React router to used with nginx
 # COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 1337:80
+EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
