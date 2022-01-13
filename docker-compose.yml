@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
 
-  docker-react-prod:
+  docker-react:
     container_name: docker-react
     build:
       context: .
